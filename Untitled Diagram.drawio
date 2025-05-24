@@ -1,9 +1,68 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.9">
   <diagram name="Page-1" id="vnUEfpQre1D3HkbOrD7U">
-    <mxGraphModel>
+    <mxGraphModel dx="1213" dy="11095" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1aq4bX1bYKlkf_Eq6Hcm-7" value="Sistem" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-10320" width="200" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="1aq4bX1bYKlkf_Eq6Hcm-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1aq4bX1bYKlkf_Eq6Hcm-7" source="1aq4bX1bYKlkf_Eq6Hcm-27" target="1aq4bX1bYKlkf_Eq6Hcm-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1aq4bX1bYKlkf_Eq6Hcm-27" value="Memproses text sesuai jenis peringkasan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1aq4bX1bYKlkf_Eq6Hcm-7">
+          <mxGeometry x="40" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aq4bX1bYKlkf_Eq6Hcm-30" value="Memanpilkan hasil Peringkasan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1aq4bX1bYKlkf_Eq6Hcm-7">
+          <mxGeometry x="40" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aq4bX1bYKlkf_Eq6Hcm-33" value="Selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1aq4bX1bYKlkf_Eq6Hcm-7">
+          <mxGeometry x="50" y="580" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aq4bX1bYKlkf_Eq6Hcm-34" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1aq4bX1bYKlkf_Eq6Hcm-7" source="1aq4bX1bYKlkf_Eq6Hcm-30" target="1aq4bX1bYKlkf_Eq6Hcm-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1aq4bX1bYKlkf_Eq6Hcm-9" value="User" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-10320" width="200" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="1aq4bX1bYKlkf_Eq6Hcm-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1aq4bX1bYKlkf_Eq6Hcm-9" source="1aq4bX1bYKlkf_Eq6Hcm-2" target="1aq4bX1bYKlkf_Eq6Hcm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1aq4bX1bYKlkf_Eq6Hcm-2" value="Mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1aq4bX1bYKlkf_Eq6Hcm-9">
+          <mxGeometry x="50" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aq4bX1bYKlkf_Eq6Hcm-10" value="Buka Website CoreText" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1aq4bX1bYKlkf_Eq6Hcm-9">
+          <mxGeometry x="40" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aq4bX1bYKlkf_Eq6Hcm-12" value="Tampilkan Web CoreText" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1aq4bX1bYKlkf_Eq6Hcm-9">
+          <mxGeometry x="-160" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aq4bX1bYKlkf_Eq6Hcm-13" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1aq4bX1bYKlkf_Eq6Hcm-9" source="1aq4bX1bYKlkf_Eq6Hcm-10" target="1aq4bX1bYKlkf_Eq6Hcm-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-100" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1aq4bX1bYKlkf_Eq6Hcm-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1aq4bX1bYKlkf_Eq6Hcm-9" source="1aq4bX1bYKlkf_Eq6Hcm-14" target="1aq4bX1bYKlkf_Eq6Hcm-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1aq4bX1bYKlkf_Eq6Hcm-14" value="Memasukan Text yang ingin di ringkas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1aq4bX1bYKlkf_Eq6Hcm-9">
+          <mxGeometry x="40" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aq4bX1bYKlkf_Eq6Hcm-16" value="Memilih jenis peringkasan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1aq4bX1bYKlkf_Eq6Hcm-9">
+          <mxGeometry x="40" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aq4bX1bYKlkf_Eq6Hcm-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1aq4bX1bYKlkf_Eq6Hcm-9" source="1aq4bX1bYKlkf_Eq6Hcm-12" target="1aq4bX1bYKlkf_Eq6Hcm-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1aq4bX1bYKlkf_Eq6Hcm-29" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="1aq4bX1bYKlkf_Eq6Hcm-16" target="1aq4bX1bYKlkf_Eq6Hcm-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="-9980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
