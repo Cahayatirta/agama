@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.9">
   <diagram name="Page-1" id="ah0pVivvnwThw9HIi_1W">
-    <mxGraphModel dx="1534" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1842" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -530,8 +530,8 @@
             <mxPoint x="70" y="-140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PSAho0VTeIDA_EcZyPtv-1" value="Kelompok D4&#xa;&#xa;I Ketut Tangkas Agus Sucita                (2308561022)&#xa;Made Arief Budi Dharma                      (2308561034)&#xa;I Made Aryadana Baraja Putra             (2308561070)&#xa;Adika Setyadharma Susilo                   (2308561088)&#xa;Anak Agung Gde Agung Pranandita     (2308561106)&#xa;I Ketut Cahaya Tirta Dharma Putra       (2308561118)" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="345" y="430" width="330" height="130" as="geometry" />
+        <mxCell id="PSAho0VTeIDA_EcZyPtv-1" value="Kelompok D4&#xa;&#xa;I Ketut Tangkas Agus Sucita                (2308561022)&#xa;Made Arief Budi Dharma                      (2308561034)&#xa;I Made Aryadana Baraja Putra             (2308561070)&#xa;Adika Setyadharma Susilo                   (2308561088)&#xa;Anak Agung Gde Agung Pranandita     (2308561106)&#xa;I Ketut Cahaya Tirta Dharma Putra       (2308561118)" style="text;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="410" y="420" width="330" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
