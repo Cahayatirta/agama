@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="Page-1" id="ybmzvU-VkRpQT2rDfckK">
-    <mxGraphModel dx="2234" dy="1449" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1011" dy="750" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -152,6 +152,24 @@
         </mxCell>
         <mxCell id="p6sPaUU9TppwSgnS7HaD-5" value="2. Penyimpanan Data" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="849" y="126" width="147" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-45" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" source="gpr8LAaPaPTISccbtqsT-46" target="gpr8LAaPaPTISccbtqsT-48" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-46" value="1. Input Hasil Preprocessing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1096" y="-140" width="123" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-47" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" source="gpr8LAaPaPTISccbtqsT-48" target="gpr8LAaPaPTISccbtqsT-49" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-48" value="2. Bag of Words (Hitung frekuensi setiap kata dalam dokumen)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1084" y="-26" width="147" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-49" value="3. TF-IDF (Mengurangi pengaruh kata umum)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1084" y="60" width="147" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-50" value="3. TF-IDF (Mengurangi pengaruh kata umum)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1084" y="144" width="147" height="52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
