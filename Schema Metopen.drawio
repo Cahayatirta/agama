@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="Page-1" id="ybmzvU-VkRpQT2rDfckK">
-    <mxGraphModel dx="1911" dy="1264" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1517" dy="1038" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -205,7 +205,7 @@
           <mxGeometry x="899" y="-186" width="133" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gpr8LAaPaPTISccbtqsT-53" value="1. Split Data (80% Training dan 20% test)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1395" y="-140" width="133" height="71" as="geometry" />
+          <mxGeometry x="1423" y="-140.5" width="133" height="71" as="geometry" />
         </mxCell>
         <mxCell id="-6hlDB7R7LpJgAfrLC_G-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;LABELLING MANUAL&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="867" y="80" width="197" height="30" as="geometry" />
@@ -213,33 +213,93 @@
         <mxCell id="gpr8LAaPaPTISccbtqsT-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="gpr8LAaPaPTISccbtqsT-55" target="gpr8LAaPaPTISccbtqsT-58">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1380" y="34" />
-              <mxPoint x="1462" y="34" />
+              <mxPoint x="1408" y="33.5" />
+              <mxPoint x="1490" y="33.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="gpr8LAaPaPTISccbtqsT-55" value="2a. SVM" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1306" y="-30.5" width="147" height="52" as="geometry" />
+          <mxGeometry x="1334" y="-31" width="147" height="52" as="geometry" />
         </mxCell>
         <mxCell id="gpr8LAaPaPTISccbtqsT-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="gpr8LAaPaPTISccbtqsT-57" target="gpr8LAaPaPTISccbtqsT-58">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1545" y="34" />
-              <mxPoint x="1462" y="34" />
+              <mxPoint x="1573" y="33.5" />
+              <mxPoint x="1490" y="33.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="gpr8LAaPaPTISccbtqsT-57" value="2b. Naive Bayes" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1471" y="-30.5" width="147" height="52" as="geometry" />
+          <mxGeometry x="1499" y="-31" width="147" height="52" as="geometry" />
         </mxCell>
         <mxCell id="gpr8LAaPaPTISccbtqsT-63" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="gpr8LAaPaPTISccbtqsT-58" target="gpr8LAaPaPTISccbtqsT-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gpr8LAaPaPTISccbtqsT-58" value="3. Training" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1388" y="54" width="147" height="52" as="geometry" />
+          <mxGeometry x="1416" y="53.5" width="147" height="52" as="geometry" />
         </mxCell>
         <mxCell id="gpr8LAaPaPTISccbtqsT-60" value="3. Cross Validation" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1388" y="131" width="147" height="52" as="geometry" />
+          <mxGeometry x="1416" y="130.5" width="147" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-64" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;EKSTRAKSI FITUR&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1696" y="-201" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-65" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TRAINING DATA&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1423" y="-194" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-66" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" source="gpr8LAaPaPTISccbtqsT-67" target="gpr8LAaPaPTISccbtqsT-69" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-67" value="1. Prediksi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="-152" width="123" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-68" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" source="gpr8LAaPaPTISccbtqsT-69" target="gpr8LAaPaPTISccbtqsT-71" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-69" value="2. Evaluasi Metrik :&lt;br&gt;- Akurasi&lt;br&gt;- Presisi&lt;div&gt;- Recall&lt;/div&gt;&lt;div&gt;- F1-Score&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1898" y="-75" width="147" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-71" value="3. Visualisasi" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="39" width="123" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-73" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;EVALUASI &amp;amp; PENGUJIAN&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1905" y="-194" width="129" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-74" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" source="gpr8LAaPaPTISccbtqsT-75" target="gpr8LAaPaPTISccbtqsT-77" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-75" value="1. Prediksi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2158" y="-152" width="123" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-76" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" source="gpr8LAaPaPTISccbtqsT-77" target="gpr8LAaPaPTISccbtqsT-78" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-77" value="2. Evaluasi Metrik :&lt;br&gt;- Akurasi&lt;br&gt;- Presisi&lt;div&gt;- Recall&lt;/div&gt;&lt;div&gt;- F1-Score&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2146" y="-75" width="147" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-78" value="3. Visualisasi" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2158" y="39" width="123" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-79" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;EVALUASI &amp;amp; PENGUJIAN&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2153" y="-194" width="129" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-80" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" source="gpr8LAaPaPTISccbtqsT-81" target="gpr8LAaPaPTISccbtqsT-83" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-81" value="1. Prediksi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2369" y="-152" width="123" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-82" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" source="gpr8LAaPaPTISccbtqsT-83" target="gpr8LAaPaPTISccbtqsT-84" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-83" value="2. Evaluasi Metrik :&lt;br&gt;- Akurasi&lt;br&gt;- Presisi&lt;div&gt;- Recall&lt;/div&gt;&lt;div&gt;- F1-Score&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2357" y="-75" width="147" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-84" value="3. Visualisasi" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2369" y="39" width="123" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="gpr8LAaPaPTISccbtqsT-85" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;EVALUASI &amp;amp; PENGUJIAN&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2364" y="-194" width="129" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
